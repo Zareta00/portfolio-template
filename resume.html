@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Шаблон</title>
+    <style>
+      body {
+        font-family: NAMU Modernism;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background: rgb(0, 51, 51);
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+
+      .skills {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+      }
+
+      .skill {
+        flex: 1;
+        text-align: center;
+      }
+
+      .skill-level {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+      }
+
+      .skill-level label {
+        margin-right: 10px;
+      }
+
+      .skill-level select {
+        padding: 5px;
+        border-radius: 5px;
+      }
+
+      .portfolio {
+        margin-top: 50px;
+        text-align: center;
+      }
+
+      .portfolio img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 20px;
+      }
+
+      footer {
+        background: rgb(0, 51, 51);
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Имя Фамилия</h1>
+    </header>
+    <div class="skills">
+      <div class="skill">
+        <h2>Навык 1</h2>
+        <div class="skill-level">
+          <label for="skill-1-level">Уровень:</label>
+          <select id="skill-1-level">
+            <option value="Начальный">Начальный</option>
+            <option value="Средний">Базовый</option>
+            <option value="Продвинутый">Опытный</option>
+            <option value="Продвинутый">Продвинутый</option>
+          </select>
+        </div>
+      </div>
+      <div class="skill">
+        <h2>Навык 2</h2>
+        <div class="skill-level">
+          <label for="skill-2-level">Уровень:</label>
+          <select id="skill-2-level">
+            <option value="Начальный">Начальный</option>
+            <option value="Начальный">Базвый</option>
+            <option value="Средний">Опытный</option>
+            <option value="Продвинутый">Продвинутый</option>
+          </select>
+        </div>
+      </div>
+      <div class="skill">
+        <h2>Навык 3</h2>
+        <div class="skill-level">
+          <label for="skill-3-level">Уровень:</label>
+          <select id="skill-3-level">
+            <option value="Начальный">Начальный</option>
+            <option value="Средний">Средний</option>
+            <option value="Продвинутый">Продвинутый</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio">
+      <h2>Портфолио</h2>
+      <img src="https://via.placeholder.com/200x200" alt="Пример работы 1">
+      <img src="https://via.placeholder.com/200x200" alt="Пример работы 2">
+      <img src="https://via.placeholder.com/200x200" alt="Пример работы 3">
+    </div>
+  </body>
+</html>
+<footer>
+  <p>&copy; Мой сайт одностраничник.  2023</p>
+</footer>
